@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 2px;
+    float: left;
+    padding-top: 10px;
+} 
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 35px;
+    font-size: 24px;
+
+}
+
+ul li a{
+
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: orange;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff4200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff4200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color:  #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+
+.srch :focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position:relative;
+}
+.content.par{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+}
+.content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content.cn{
+    width: 60px;
+    height: 40px;
+    background: #ff4200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+ .content.cn a{
+     text-decoration: none;
+     color: #000;
+     transition: .3s ease;
+
+ }
+.cn.hover{
+    background-color: #fff;
+    text-align: justify;
+
+}
+.content span{
+    color: #ff4200;
+    font-size: 60px;
+}
+.form{
+    width: 250px;
+    height: 320px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    left: 50%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    transform: translate(-50%,50%);
+    padding: 9px;
+    color: #fff;
+
+}
+.form h2{
+    width: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #ff4200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-top: 4px;
+    padding: 8px;
+}
+.form input{
+    width: 220px;
+    height: 30px;
+    background: transparent;
+    border-bottom: 1px solid #ff4200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btnn{
+    width: 240;
+    height: 40px;
+    background: #ff4200;
+    border: #ff4200;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4 ease;
+    
+
+}
+
+
+.btnn:hover{
+    background: #fff;
+    color: #ff4200;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.form.link{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    padding-top: 20px;
+   
+}
+.form.link a{
+    text-decoration: none;
+    color: #ff4200;
+}
+.ABOUT {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    color: #fff;
+
+}
+.ABOUT img{
+    height: 420px;
+    width: 330px;
+    margin-top: 180px;
+    
+}
+
+.about {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flexbox;
+    justify-content: space-around;
+}
